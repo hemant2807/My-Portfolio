@@ -156,11 +156,10 @@ export const HeroSection = ({ id }: { id: string }) => {
 
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+            Hi, I'm Hemant Kumar
           </h1>
           <p className="mt-4 text-center font-light text-white/80 tracking-wide md:text-lg">
-            I specialize in transforming designs into functional,
-            high-performing web-applications. Let&apos;s discuss your next
+            I am a Full-Stack Developer and build end-to-end web applications. Let&apos;s discuss your next
             project.
           </p>
         </div>
