@@ -2,45 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+    .nav-item {
+        @apply px-3 py-1.5 rounded-full text-white/70 text-sm font-semibold 
+        hover:bg-white/10 hover:text-white transition-colors duration-200;
+    }
+
+    .nav-highlighted {
+        @apply bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900;
+    }
+
+    .hero-ring {
+        @apply absolute inset-0 border-2 rounded-full top-1/2 left-1/2 
+        -translate-x-1/2 -translate-y-1/2 border-emerald-300/5 
+        shadow-[0_0_80px_inset] shadow-emerald-300/10;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@layer utilities {
+    .container {
+        @apply lg:max-w-5xl;
+    }
 }
