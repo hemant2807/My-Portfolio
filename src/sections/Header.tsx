@@ -99,8 +99,8 @@ export const Header = ({
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
 
-        const isLast = i === sections.length - 1;
-        const inSection = isLast
+        const isLastSection = i === sections.length - 1;
+        const inSection = isLastSection
           ? scrollPosition >= section.top - 50
           : scrollPosition >= section.top && scrollPosition < section.bottom;
 

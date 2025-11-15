@@ -1,7 +1,19 @@
+"use client";
+import { useState } from "react";
+import { Header } from "@/sections/Header";
+import { HeroSection } from "@/sections/Hero";
+import { heroSectionId } from "@/sections/constants";
+
 export default function Home() {
+  const [activeSectionId, setActiveSectionId] = useState<string>(heroSectionId);
+
   return (
-    <main>
-      <h1 className="text-center mt-10">Home Page</h1>
-    </main>
+    <>
+      <Header
+        activeSectionId={activeSectionId}
+        setActiveSectionId={setActiveSectionId}
+      />
+      <HeroSection id={heroSectionId} />
+    </>
   );
 }
