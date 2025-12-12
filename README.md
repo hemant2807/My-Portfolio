@@ -1,36 +1,209 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio -- Next.js + Tailwind CSS
 
-## Getting Started
+A modern, high-performance developer portfolio built with **Next.js
+14**, **App Router**, **Tailwind CSS**, and **TypeScript**.\
+Designed to showcase professional experience, featured projects,
+testimonials, skills, and contact details --- with beautiful UI
+animations, scroll-based effects, and responsive layouts.
 
-First, run the development server:
+Live Demo: **liveLink**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+------------------------------------------------------------------------
+
+## 🚀 Tech Stack
+
+-   **Next.js 14 (App Router)**
+-   **React 18**
+-   **TypeScript**
+-   **Tailwind CSS**
+-   **SVGR** for SVG icons
+-   **Next/Image** for optimized assets
+-   **Vercel Deployment**
+-   Custom UI elements (Orbit animations, sticky project cards, marquee
+    testimonials, etc.)
+
+------------------------------------------------------------------------
+
+## 📁 Project Structure
+
+    src/
+    │── app/
+    │   │── globals.css
+    │   │── layout.tsx
+    │   └── page.tsx
+    │
+    │── sections/
+    │   │── Header.tsx
+    │   │── Hero.tsx
+    │   │── Projects.tsx
+    │   │── Testimonials.tsx
+    │   │── About.tsx
+    │   └── Footer.tsx
+    │
+    │── components/
+    │   │── Card.tsx
+    │   │── SectionHeader.tsx
+    │   └── HeroOrbit.tsx
+    │
+    │── assets/
+    │   │── images/
+    │   │── icons/
+    │   └── toolbox/
+    │
+    └── profile.config.ts
+
+------------------------------------------------------------------------
+
+## ✨ Features
+
+### 🎯 **Hero Section**
+
+-   Animated star field & orbiting icons\
+-   Status badge with pulse animation\
+-   Responsive & visually identical to reference design
+
+------------------------------------------------------------------------
+
+### 🧩 **Projects Section**
+
+-   Beautiful sticky-scrolling project cards\
+-   Each card includes:
+    -   Company & year badge
+    -   Project title + description
+    -   Bullet points with SVG check icons
+    -   Image preview & CTA button\
+-   Smooth transitions & depth effects
+
+------------------------------------------------------------------------
+
+### 💬 **Testimonials Section**
+
+-   Infinite horizontal marquee with:
+    -   Client avatar
+    -   Client name & position
+    -   Review text (auto scroll + hover pause)
+-   Soft border glow + grain texture
+
+------------------------------------------------------------------------
+
+### 🧰 **About & Toolbox**
+
+-   Skill icons auto-loaded from `profile.config.ts`
+-   Hobbies with floating emojis
+-   Fully responsive layout
+
+------------------------------------------------------------------------
+
+### 📬 **Footer**
+
+-   Social links
+-   Email address loaded dynamically from config
+
+------------------------------------------------------------------------
+
+## 🔧 Configuration
+
+All portfolio data is stored in:
+
+    profile.config.ts
+
+You can edit:
+
+-   Email\
+-   Toolbox skills\
+-   Projects\
+-   Testimonials\
+-   Footer links\
+-   Hobbies
+
+This makes the portfolio fully customizable without touching UI
+components.
+
+------------------------------------------------------------------------
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+``` bash
+git clone https://github.com/hemant2807/My-Portfolio.git
+cd My-Portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+``` bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3️⃣ Run Dev Server
 
-## Learn More
+``` bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Visit:\
+➡️ http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+------------------------------------------------------------------------
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Production Build
 
-## Deploy on Vercel
+``` bash
+npm run build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+------------------------------------------------------------------------
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Deployment (Vercel)
+
+1.  Push the repository to GitHub\
+2.  Import the repo into Vercel\
+3.  Set up domain & environment configs (optional)\
+4.  Deploy 🚀
+
+Supports: - `vercel.app` default domain\
+- Custom domain (Namecheap, Name.com, etc.)\
+- **is-a.dev** domain (free through Student Dev Pack)
+
+------------------------------------------------------------------------
+
+## 🎨 Customization
+
+### Change Fonts
+
+Modify in `layout.tsx` using `next/font`.
+
+### Change Stars, Orbit Icons
+
+Update assets in:
+
+    /assets/icons/toolbox
+    /assets/icons/star.svg
+
+### Adjust Hero Spacing
+
+Edit ring sizes or icon orbits inside `Hero.tsx`.
+
+------------------------------------------------------------------------
+
+## 📸 Screenshots
+
+*Screenshot*
+
+------------------------------------------------------------------------
+
+## 🧑‍💻 Author
+
+**Hemant Kumar**\
+Frontend + Backend Engineer\
+🌐 Portfolio: LiveLink\
+🐦 Twitter: https://x.com/hemant_2807\
+💼 LinkedIn: https://www.linkedin.com/in/hemant2807/\
+
+------------------------------------------------------------------------
+
+## ⭐ Support
+
+If you like this project, consider giving a **star** on GitHub 🌟
