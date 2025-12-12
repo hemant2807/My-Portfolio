@@ -58,20 +58,20 @@ Live Demo: **liveLink**
 
 ### 🎯 **Hero Section**
 
--   Animated star field & orbiting icons\
--   Status badge with pulse animation\
--   Responsive & visually identical to reference design
+-   Animated star field & orbiting icons
+-   Status badge with pulse animation
+-   Responsive & visually identical to reference desig
 
 ------------------------------------------------------------------------
 
 ### 🧩 **Projects Section**
 
--   Beautiful sticky-scrolling project cards\
+-   Beautiful sticky-scrolling project cards
 -   Each card includes:
     -   Company & year badge
     -   Project title + description
     -   Bullet points with SVG check icons
-    -   Image preview & CTA button\
+    -   Image preview & CTA button
 -   Smooth transitions & depth effects
 
 ------------------------------------------------------------------------
@@ -109,11 +109,11 @@ All portfolio data is stored in:
 
 You can edit:
 
--   Email\
--   Toolbox skills\
--   Projects\
--   Testimonials\
--   Footer links\
+-   Email
+-   Toolbox skills
+-   Projects
+-   Testimonials
+-   Footer links
 -   Hobbies
 
 This makes the portfolio fully customizable without touching UI
@@ -158,13 +158,13 @@ npm start
 
 ## 🚀 Deployment (Vercel)
 
-1.  Push the repository to GitHub\
-2.  Import the repo into Vercel\
-3.  Set up domain & environment configs (optional)\
+1.  Push the repository to GitHub
+2.  Import the repo into Vercel
+3.  Set up domain & environment configs (optional)
 4.  Deploy 🚀
 
-Supports: - `vercel.app` default domain\
-- Custom domain (Namecheap, Name.com, etc.)\
+Supports: - `vercel.app` default domain
+- Custom domain (Namecheap, Name.com, etc.)
 - **is-a.dev** domain (free through Student Dev Pack)
 
 ------------------------------------------------------------------------
@@ -199,8 +199,8 @@ Edit ring sizes or icon orbits inside `Hero.tsx`.
 **Hemant Kumar**\
 Frontend + Backend Engineer\
 🌐 Portfolio: LiveLink\
-🐦 Twitter: https://x.com/hemant_2807\
-💼 LinkedIn: https://www.linkedin.com/in/hemant2807/\
+🐦 Twitter: https://x.com/hemant_2807 \
+💼 LinkedIn: https://www.linkedin.com/in/hemant2807/
 
 ------------------------------------------------------------------------
 
