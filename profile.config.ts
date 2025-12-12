@@ -1,3 +1,25 @@
+import SquareJsIcon from "@/assets/icons/toolbox/square-js.svg";
+import SquareTsIcon from "@/assets/icons/toolbox/square-ts.svg";
+import SolidityIcon from "@/assets/icons/toolbox/solidity.svg";
+import HTML5Icon from "@/assets/icons/toolbox/html5.svg";
+import CssIcon from "@/assets/icons/toolbox/css3.svg";
+import ReactIcon from "@/assets/icons/toolbox/react.svg";
+import ElectronIcon from "@/assets/icons/toolbox/electron.svg";
+import GitIcon from "@/assets/icons/toolbox/git.svg";
+import PolypaneIcon from "@/assets/icons/toolbox/polypane.svg";
+import FirebaseIcon from "@/assets/icons/toolbox/firebase.svg";
+import GithubIcon from "@/assets/icons/toolbox/github.svg";
+import BunIcon from "@/assets/icons/toolbox/bun.svg";
+import PostmanIcon from "@/assets/icons/toolbox/postman.svg";
+import TailwindIcon from "@/assets/icons/toolbox/tailwind.svg";
+import MongoDBIcon from "@/assets/icons/toolbox/mongo-db.svg";
+import PostgressIcon from "@/assets/icons/toolbox/postgress.svg";
+import ViteIcon from "@/assets/icons/toolbox/vite.svg";
+import VSCodeIcon from "@/assets/icons/toolbox/vs-code.svg";
+import VercelIcon from "@/assets/icons/toolbox/vercel.svg";
+import SwaggerIcon from "@/assets/icons/toolbox/swagger.svg";
+import NodeJsIcon from "@/assets/icons/toolbox/node-js.svg";
+import NestIcon from "@/assets/icons/toolbox/nest.svg";
 import project1Image from "@/assets/images/project1.png";
 import project2Image from "@/assets/images/project2.png";
 import project3Image from "@/assets/images/project3.png";
@@ -6,8 +28,149 @@ import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import vedazAvatar from "@/assets/images/vedaz.webp";
 import shanzilAvatar from "@/assets/images/shanzil-avatar.webp";
 
-export const toolBoxItems = [];
-export const hobbies = [];
+export const toolBoxItems = [
+  {
+    title: "HTML5",
+    iconType: HTML5Icon,
+  },
+  {
+    title: "CSS",
+    iconType: CssIcon,
+  },
+  {
+    title: "JavaScript",
+    iconType: SquareJsIcon,
+  },
+  {
+    title: "TypeScript",
+    iconType: SquareTsIcon,
+  },
+  {
+    title: "Bun",
+    iconType: BunIcon,
+  },
+  {
+    title: "Node.js",
+    iconType: NodeJsIcon,
+  },
+  {
+    title: "Tailwind CSS",
+    iconType: TailwindIcon,
+  },
+  {
+    title: "Solidity",
+    iconType: SolidityIcon,
+  },
+  {
+    title: "Nest",
+    iconType: NestIcon,
+  },
+  {
+    title: "Swagger",
+    iconType: SwaggerIcon,
+  },
+  {
+    title: "Electron",
+    iconType: ElectronIcon,
+  },
+  {
+    title: "Postman",
+    iconType: PostmanIcon,
+  },
+  {
+    title: "React",
+    iconType: ReactIcon,
+  },
+  {
+    title: "Vite",
+    iconType: ViteIcon,
+  },
+  {
+    title: "MongoDB",
+    iconType: MongoDBIcon,
+  },
+  {
+    title: "Postgress",
+    iconType: PostgressIcon,
+  },
+  {
+    title: "Firebase",
+    iconType: FirebaseIcon,
+  },
+  {
+    title: "Polypane",
+    iconType: PolypaneIcon,
+  },
+  {
+    title: "Git",
+    iconType: GitIcon,
+  },
+  {
+    title: "Github",
+    iconType: GithubIcon,
+  },
+  {
+    title: "Visual Studio Code",
+    iconType: VSCodeIcon,
+  },
+  {
+    title: "Vercel",
+    iconType: VercelIcon,
+  },
+];
+
+export const hobbies = [
+  {
+    title: "Singing Alone",
+    emoji: "🎤",
+    left: "5%",
+    top: "3%",
+    zIndex: 0,
+  },
+  {
+    title: "Photography",
+    emoji: "📸",
+    left: "50%",
+    top: "3%",
+    zIndex: 0,
+  },
+  {
+    title: "Gaming",
+    emoji: "🎮",
+    left: "10%",
+    top: "33%",
+    zIndex: 0,
+  },
+  {
+    title: "Music",
+    emoji: "🎵",
+    left: "35%",
+    top: "40%",
+    zIndex: -10,
+  },
+  {
+    title: "Chess",
+    emoji: "👑",
+    left: "70%",
+    top: "45%",
+    zIndex: 0,
+  },
+  {
+    title: "Workout & Fitness",
+    emoji: "🏋️",
+    left: "5%",
+    top: "65%",
+    zIndex: 0,
+  },
+  {
+    title: "Athletics",
+    emoji: "🏃🏻",
+    left: "45%",
+    top: "70%",
+    zIndex: 0,
+  },
+];
+
 export const portfolioProjects = [
   {
     company: "Guftagu",
