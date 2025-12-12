@@ -6,7 +6,7 @@ Designed to showcase professional experience, featured projects,
 testimonials, skills, and contact details --- with beautiful UI
 animations, scroll-based effects, and responsive layouts.
 
-Live Demo: **liveLink**
+Live Demo: **https://www.hemant28.me/**
 
 ------------------------------------------------------------------------
 
@@ -198,7 +198,7 @@ Edit ring sizes or icon orbits inside `Hero.tsx`.
 
 **Hemant Kumar**\
 Frontend + Backend Engineer\
-🌐 Portfolio: LiveLink\
+🌐 Portfolio: https://www.hemant28.me/ \
 🐦 Twitter: https://x.com/hemant_2807 \
 💼 LinkedIn: https://www.linkedin.com/in/hemant2807/
 
