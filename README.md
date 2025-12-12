@@ -6,7 +6,7 @@ Designed to showcase professional experience, featured projects,
 testimonials, skills, and contact details --- with beautiful UI
 animations, scroll-based effects, and responsive layouts.
 
-Live Demo: **https://www.hemant28.me/**
+## [Live Demo](https://www.hemant28.me/)
 
 ------------------------------------------------------------------------
 
