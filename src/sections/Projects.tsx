@@ -25,7 +25,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                 lg:px-16 lg:pt-14
                 sticky
                 min-h-[420px]
-                border border-white/100    
+                border border-white/30  
                 rounded-2xl                 
               "
               style={{
@@ -52,7 +52,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                     {project.title}
                   </h3>
 
-                  <hr className="border-t-2 border-white/10 mt-4" />
+                  <hr className="border border-white/30 mt-4" />
 
                   <ul className="mt-4 flex flex-col gap-3">
                     {project.results.map((result) => (
@@ -83,7 +83,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                     className="
                       absolute -inset-1
                       rounded-xl            
-                      border border-white/5 
+                      border border-white/30
                       pointer-events-none
                     "
                   />
@@ -98,7 +98,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                       lg:h-[320px] xl:h-[360px]
                       object-cover 
                       rounded-xl             
-                      border-white/10        
+                      border border-white/30        
                     "
                   />
                 </div>
