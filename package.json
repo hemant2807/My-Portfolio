@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@svgr/webpack": "^8.1.0",
     "framer-motion": "^12.23.26",
     "next": "16.0.3",
     "react": "19.2.0",
