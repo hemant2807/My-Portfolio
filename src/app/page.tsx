@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Header } from "@/sections/Header";
 import { HeroSection } from "@/sections/Hero";
 import { ProjectsSection } from "@/sections/Projects";
-// import { TapeSection } from "@/sections/Tape";
+import { TapeSection } from "@/sections/Tape";
 import { TestimonialsSection } from "@/sections/Testimonials";
 // import { AboutSection } from "@/sections/About";
 // import { ContactSection } from "@/sections/Contact";
@@ -33,7 +33,7 @@ export default function Home() {
 
       <ProjectsSection id={projectsSectionId} />
 
-      {/* <TapeSection /> */}
+      <TapeSection />
 
       <TestimonialsSection />
 

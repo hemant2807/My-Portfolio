@@ -7,7 +7,7 @@ import { portfolioProjects } from "../../profile.config";
 
 export const ProjectsSection = ({ id }: { id: string }) => {
   return (
-    <section className="pb-16 lg:py-24" id={id}>
+    <section className="pb-16" id={id}>
       <div className="container">
         <SectionHeader
           heading1="Real-world Results"
