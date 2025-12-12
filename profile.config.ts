@@ -279,5 +279,5 @@ export const testimonials = [
     avatar: memojiAvatar3,
   },
 ];
-export const email = "";
+export const email = "hemant.k2807@gmail.com";
 export const footerLinks = [];

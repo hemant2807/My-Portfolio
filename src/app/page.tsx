@@ -8,7 +8,7 @@ import { ProjectsSection } from "@/sections/Projects";
 import { TapeSection } from "@/sections/Tape";
 import { TestimonialsSection } from "@/sections/Testimonials";
 import { AboutSection } from "@/sections/About";
-// import { ContactSection } from "@/sections/Contact";
+import { ContactSection } from "@/sections/Contact";
 // import { Footer } from "@/sections/Footer";
 
 import {
@@ -39,7 +39,7 @@ export default function Home() {
 
       <AboutSection id={aboutSectionId} />
 
-      {/* <ContactSection id={contactSectionId} /> */}
+      <ContactSection id={contactSectionId} />
 
       {/* <Footer /> */}
     </>
