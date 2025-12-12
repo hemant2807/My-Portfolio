@@ -279,5 +279,20 @@ export const testimonials = [
     avatar: memojiAvatar3,
   },
 ];
+
 export const email = "hemant.k2807@gmail.com";
-export const footerLinks = [];
+
+export const footerLinks = [
+  {
+    title: "Twitter",
+    href: "https://x.com/hemant_2807",
+  },
+  {
+    title: "Github",
+    href: "https://github.com/hemant2807",
+  },
+  {
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/hemant2807/",
+  },
+];
