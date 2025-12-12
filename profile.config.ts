@@ -52,7 +52,7 @@ export const portfolioProjects = [
     results: [
       { title: "Web-platform for unified student, faculty and admin management across multiple Institutes" },
       { title: "AI-powered Portfolio and Resume generator leveraging ML-OCR pipelines" },
-      { title: "Leveraged Microsoft Azure for cloud-based storage" },
+      { title: "Built predictive analytics models in Python and leveraged Microsoft Azure for cloud-based storage" },
     ],
     link: "https://github.com/hemant2807/Student-Hub",
     image: project4Image,
