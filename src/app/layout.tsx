@@ -11,9 +11,38 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Hemant Kumar",
-  description: "An engineering 3rd Year undergrad who likes making end-to-end web applications",
+  title: "Hemant Kumar | Full-Stack Developer",
+
+  description:
+    "Full-stack developer skilled in React, Next.js, Node.js, MongoDB and competitive programming. Building end-to-end web applications.",
+
+  openGraph: {
+    title: "Hemant Kumar | Full-Stack Developer",
+    description:
+      "Full-stack developer | React • Next.js • Node • MongoDB | Competitive Programming | GSSoC'24 Contributor",
+    url: "https://hemant28.me",
+    siteName: "Hemant Kumar Portfolio",
+    images: [
+      {
+        url: "https://hemant28.me/og.png", 
+        width: 1200,
+        height: 630,
+        alt: "Hemant Kumar Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Hemant Kumar | Full-Stack Developer",
+    description:
+      "Portfolio of Hemant Kumar – Full-stack developer & competitive programmer",
+    images: ["https://hemant28.me/og.png"],
+  },
 };
+
 
 export default function RootLayout({
   children,
